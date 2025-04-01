@@ -1,0 +1,11 @@
+{
+  "name": "be_jobsapp",
+  "version": "1.0.0",
+  "description": "Job portal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sathish R",
+  "license": "ISC"
+}
