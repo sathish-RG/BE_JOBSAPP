@@ -55,7 +55,7 @@ const userController={
     res.status(500).json({message:error.message});
   }
 },
- applyJob:async (req, res)=>{
+applyJob:async (req, res)=>{
   try{
     //get the jobid from request params
     const jobId=req.params.jobId
@@ -87,7 +87,7 @@ const userController={
   try{
 
   }catch(err){ 
-    res.status(500).json({message:error.message})
+    res.status(500).json({message:err.message})
   }
  }
 }
